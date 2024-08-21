@@ -1,0 +1,135 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     background-color: #f4f4f4;
+     color: #333;
+ }
+
+ header {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 1rem;
+ }
+
+ header h1 {
+     font-size: 2rem;
+ }
+
+ main {
+     max-width: 1200px;
+     margin: 2rem auto;
+     padding: 0 1rem;
+ }
+
+ .project {
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     margin-bottom: 2rem;
+     padding: 1.5rem;
+ }
+
+ .project h2 {
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
+ }
+
+ .project p {
+     margin-bottom: 1rem;
+ }
+
+ .download-btn {
+     display: inline-block;
+     background-color: #333;
+     color: #fff;
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     border-radius: 4px;
+     margin-bottom: 1rem;
+     transition: background-color 0.3s ease;
+ }
+
+ .download-btn:hover {
+     background-color: #555;
+ }
+
+ iframe {
+     width: 100%;
+     max-width: 692px;
+     height: 450px;
+     border: none;
+     border-radius: 4px;
+     margin: 0 auto;
+     display: block;
+ }
+
+ @media (max-width: 992px) {
+     main {
+         padding: 0 2rem;
+     }
+
+     header h1 {
+         font-size: 1.85rem;
+     }
+
+     .project h2 {
+         font-size: 1.35rem;
+     }
+ }
+
+ @media (max-width: 768px) {
+     header h1 {
+         font-size: 1.75rem;
+     }
+
+     .project h2 {
+         font-size: 1.25rem;
+     }
+
+     iframe {
+         height: 400px;
+     }
+ }
+
+ @media (max-width: 576px) {
+     header h1 {
+         font-size: 1.6rem;
+     }
+
+     .project h2 {
+         font-size: 1.2rem;
+     }
+
+     .project p {
+         font-size: 0.95rem;
+     }
+
+     iframe {
+         height: 350px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     header h1 {
+         font-size: 1.5rem;
+     }
+
+     .project h2 {
+         font-size: 1.1rem;
+     }
+
+     .project p {
+         font-size: 0.9rem;
+     }
+
+     iframe {
+         height: 300px;
+     }
+ }
